@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  width: 256px;
+  height: 32px;
+  border-radius: 10px;
+  border: 1px solid #C4C4C4;
+}
+
+.button {
+  width: 130px;
+  height: 40px;
+  background: #833AE0;
+  border-radius: 50px;
+  border: 1px solid #C4C4C4;
+  color: white;
+  cursor: pointer;
+}
+
+.firstbar {
+  width: auto;
+  position: relative;
+  height: 30px;
+  background-color: #FFDC40;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.border {
+  width: 400px;
+  background-color: #F0F0F0;
+  margin: auto;
+  margin-top: 100px;
+  border: 1px solid #C4C4C4;
+  border-radius: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.name {
+  position: relative;
+  margin: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.deleteBut {
+  width: 66px;
+  height: 22px;
+  background: #833AE0;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #C4C4C4;
+  color: white;
+  display: inline-block;
+  margin-top: -10px;
+  padding-left: 2px;
+}
+
+.sort {
+  width: 8%;
+  background: #833AE0;
+  border-radius: 50px;
+  border: 1px solid #C4C4C4;
+  color: white;
+  cursor: pointer;
+  margin-left: 350px;
+  align-items: center;
+  margin-bottom: 10px;
+}
